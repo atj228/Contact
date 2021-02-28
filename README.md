@@ -29,3 +29,4 @@ Voici quelques screenshots du site:
     <img src="image/login.jpg" alt="Image page connexion">
     <img src="image/affichageQuestion.jpg" alt="Image page afichage des questions">
 </div>
+![image](./image/affichageQuestion.JPG)
