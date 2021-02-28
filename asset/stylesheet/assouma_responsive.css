@@ -1,0 +1,99 @@
+@media screen and (max-width: 980px) {
+  .menu-toggler {
+    display: block;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    top: 0;
+    right: -100%;
+    max-width: 400px;
+    padding: 80px 50px;
+    transition: 0.3s linear;
+  }
+
+  .navbar-menu a {
+    display: block;
+    font-size: 30px;
+    margin: 30px 0;
+  }
+
+  .navbar-menu.active {
+    right: 0;
+  }
+
+  .menu-toggler.active span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 4px;
+  }
+
+  .menu-toggler.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggler.active span:nth-child(3) {
+    transform: rotate(45deg);
+    bottom: 14px;
+  }
+
+  .content-home {
+    max-width: 800px;
+  }
+
+  /************************************* End Header Page *************************************/
+
+  #home .content h2 {
+    font-size: 25px;
+  }
+
+  #home .content .log-reg a {
+    font-size: 12px;
+  }
+
+  /************************************* Log In and Reg Page *************************************/
+
+  #logReg .container {
+    max-width: 340px;
+  }
+  .divTest {
+    margin-top: 50px;
+  }
+  header .logo-club {
+    left: 20px;
+  }
+
+  .nav-links ul li a {
+    padding-left: 10px;
+    margin-right: 0px;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------Screen Size : max-width= 600px ---------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+  .content-home {
+    padding: 0 20px;
+  }
+  /************************************* Contact Page *************************************/
+
+  .nameZone,
+  .emailZone,
+  .surnameZone,
+  .messageZone {
+    max-width: 100%;
+  }
+
+  /************************************* End Contact Page *************************************/
+  /************************************* Gallery Page *************************************/
+
+  .author-date {
+    flex-direction: column;
+  }
+}

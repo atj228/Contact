@@ -1,0 +1,449 @@
+@import url("https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6f6;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #191919;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 999;
+  transition: 0.3s linear;
+}
+
+.content-home {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.navbar .content-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 44px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+.menu-toggler {
+  background: none;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  z-index: 999;
+  display: none;
+}
+
+.menu-toggler span {
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  position: relative;
+  transition: 0.3s linear;
+}
+
+.navbar-menu a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 30px;
+  transition: 0.2s linear;
+}
+
+.navbar-menu a:hover {
+  color: orangered !important;
+}
+
+.sticky .navbar-menu a {
+  color: #111;
+}
+
+.abt .sticky .navbar-menu a {
+  color: #fff;
+}
+
+.sticky .menu-toggler span {
+  background-color: #111;
+}
+
+.abt .sticky .menu-toggler span {
+  background-color: #fff;
+}
+
+.logIn-btn {
+  background-color: transparent;
+  font-size: 16px;
+  border: 2px solid orangered;
+  padding: 5px 30px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: 0.3s linear;
+  border-radius: 8px;
+}
+
+.navbar-menu .logIn-btn:hover {
+  background-color: orangered;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+#contact {
+  padding-top: 100px;
+}
+
+.section-title {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 20px;
+  border-radius: 4px;
+  color: #000;
+}
+
+.nameZone,
+.emailZone,
+.surnameZone,
+.messageZone {
+  max-width: 50%;
+}
+
+.messageZone {
+  min-height: 100px;
+  resize: unset;
+}
+
+.contact-form .btnZone {
+  width: 180px;
+  background-color: transparent;
+  color: orangered;
+  font-size: 16px;
+  border: 2px solid orangered;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.contact-form .btnZone:hover {
+  background-color: orangered;
+  color: #fff;
+}
+
+footer {
+  background-color: #191919;
+  padding: 20px;
+}
+
+.footer-log p,
+.footer-log address {
+  color: #191919;
+  font-weight: 600;
+}
+
+.footer-log {
+  margin-top: 20px;
+}
+
+.footer-log a {
+  color: rgb(80, 80, 80);
+}
+
+.copyright,
+address {
+  font-size: 10px;
+  margin-top: none;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+address a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Log*/
+
+.black-logo {
+  color: #000;
+}
+
+.logoBx {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.logoBx a {
+  cursor: pointer;
+}
+
+.logoBx h2 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+#logReg,
+#Reglog {
+  position: relative;
+  min-height: 100vh;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  width: 450px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.formB form input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #e6e3e3;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.formB form input[type="text"],
+.formB form input[type="password"],
+.formB form input[type="email"] {
+  border-radius: 50px;
+}
+
+.formB form input[type="submit"] {
+  max-width: 100px;
+  background: orangered;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+.signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #191919;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.signup a {
+  font-weight: 600;
+  color: orangered;
+}
+
+/*Reg*/
+
+.nameReg,
+.emailReg,
+.passwordReg {
+  max-width: calc(50% - 10px);
+}
+
+.formBreg {
+  position: relative;
+  /*width: 50%;*/
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+/*Questionnaire Page*/
+header * {
+  color: #fff;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #1ba1e2;
+  height: 66px;
+  z-index: 1000;
+  top: 0;
+  transition: 0.6s;
+}
+
+header .logo-club {
+  float: left;
+  top: 10px;
+  left: 100px;
+  position: relative;
+  font-weight: 790;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+  color: #fff;
+}
+
+header .logo-club span {
+  color: rgb(114, 198, 240);
+}
+
+.nav-links ul {
+  float: right;
+  list-style: none;
+}
+
+.nav-links ul li {
+  float: left;
+  position: relative;
+}
+
+.nav-links ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 21px;
+  font-size: 1.1em;
+  margin-right: 50px;
+}
+
+.nav-links ul li a:hover {
+  background: rgb(0, 36, 54);
+  transition: 0.5s;
+}
+
+.nav-links ul li ul {
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 250px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+.nav-links ul li:hover ul {
+  display: block;
+}
+
+.nav-links ul li ul li {
+  width: 250px;
+}
+
+.nav-links ul li ul li a {
+  padding: 10px;
+  background-color: #1ba1e2;
+}
+
+.toggle div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 5px 5px 0;
+  transition: all 0.4s ease;
+}
+
+.toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bodyQuestion {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.o-discussion {
+  border: 1px solid #191919;
+  border-radius: 8px;
+  padding: 10px;
+  width: 84%;
+  margin: 0 auto;
+  background: #f6f6f6;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.o-content-discussion {
+  margin-bottom: 10px;
+}
+
+.author-date {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.author-gall,
+.date-gall {
+  margin-right: 20px;
+}
+
+.errorMessageServer {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.errorcolor {
+  color: #ad001f;
+}
