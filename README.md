@@ -24,6 +24,8 @@ J'ai alors développé alors 4 pages à savoir:
 
 Voici quelques screenshots du site:
 
-<img src="asset/image/index.jpg" alt="Image page index">
-<img src="asset/image/login.jpg" alt="Image page connexion">
-<img src="asset/image/affichageQuestion.jpg" alt="Image page afichage des questions">
+<div>
+    <img src="asset/image/index.jpg" alt="Image page index">
+    <img src="asset/image/login.jpg" alt="Image page connexion">
+    <img src="asset/image/affichageQuestion.jpg" alt="Image page afichage des questions">
+</div>
