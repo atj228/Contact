@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-02-26 02:19:00
+/* Smarty version 3.1.34-dev-7, created on 2021-02-28 23:09:33
   from 'C:\xampp\htdocs\Wever\templates\registration.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_60384c84a12563_23567425',
+  'unifunc' => 'content_603c149dd81978_98606714',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f6006cf03cb19e875e80d693b25beb182419b7a4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Wever\\templates\\registration.tpl',
-      1 => 1614302335,
+      1 => 1614550167,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60384c84a12563_23567425 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603c149dd81978_98606714 (Smarty_Internal_Template $_smarty_tpl) {
 ?><body>
     <section id="Reglog">
         <div class="container">
             <div class="logoBx">
-                <a href="../index.php" class="logo black-logo">Logo</a>
+                <a href="../index.php" class="logo black-logo">Contact</a>
                 <h2>Créer votre compte</h2>
             </div>
             <div id="log">

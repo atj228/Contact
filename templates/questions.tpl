@@ -1,7 +1,7 @@
 <body>
     <!-- header home club-->
     <header>
-        <a href="questions.php" class="logo-club">Lo<span>Go</span></a>
+        <a href="questions.php" class="logo-club">Con<span>tact</span></a>
         <nav class="nav-links">
             <ul>
                 <li><a href="#"><i class="fas fa-hashtag" style="font-size:15px;"></i>{$smarty.session.username}</a>

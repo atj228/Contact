@@ -2,7 +2,7 @@
     <section id="logReg">
         <div class="container">
             <div class="logoBx">
-                <a href="../index.php" class="logo black-logo">Logo</a>
+                <a href="../index.php" class="logo black-logo">Contact</a>
                 <h2>Connexion</h2>
             </div>
             <div id="log">

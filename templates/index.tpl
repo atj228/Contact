@@ -2,7 +2,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="content-home">
-            <a href="index.php" class="logo">LOGO</a>
+            <a href="index.php" class="logo">Contact</a>
 
             <button class="menu-toggler">
                 <span></span>

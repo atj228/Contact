@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-02-26 02:17:10
+/* Smarty version 3.1.34-dev-7, created on 2021-02-28 23:08:56
   from 'C:\xampp\htdocs\Wever\templates\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_60384c16b8cc92_73502349',
+  'unifunc' => 'content_603c147824b286_02298966',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bf75c9ade30a9ce7e11c7f7071777c66e6402d57' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Wever\\templates\\login.tpl',
-      1 => 1614302027,
+      1 => 1614550127,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60384c16b8cc92_73502349 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603c147824b286_02298966 (Smarty_Internal_Template $_smarty_tpl) {
 ?><body>
     <section id="logReg">
         <div class="container">
             <div class="logoBx">
-                <a href="../index.php" class="logo black-logo">Logo</a>
+                <a href="../index.php" class="logo black-logo">Contact</a>
                 <h2>Connexion</h2>
             </div>
             <div id="log">

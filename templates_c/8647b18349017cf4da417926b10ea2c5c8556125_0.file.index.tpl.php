@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-02-26 02:11:05
+/* Smarty version 3.1.34-dev-7, created on 2021-02-28 23:08:20
   from 'C:\xampp\htdocs\Wever\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_60384aa90ad452_98783819',
+  'unifunc' => 'content_603c1454bede48_56580510',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8647b18349017cf4da417926b10ea2c5c8556125' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Wever\\templates\\index.tpl',
-      1 => 1614301856,
+      1 => 1614550040,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60384aa90ad452_98783819 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603c1454bede48_56580510 (Smarty_Internal_Template $_smarty_tpl) {
 ?><body>
     <!-- Navbar -->
     <nav class="navbar">
         <div class="content-home">
-            <a href="index.php" class="logo">LOGO</a>
+            <a href="index.php" class="logo">Contact</a>
 
             <button class="menu-toggler">
                 <span></span>

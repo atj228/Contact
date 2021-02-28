@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-02-26 02:20:17
+/* Smarty version 3.1.34-dev-7, created on 2021-02-28 23:09:52
   from 'C:\xampp\htdocs\Wever\templates\questions.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_60384cd1c09989_64033965',
+  'unifunc' => 'content_603c14b052f2d0_44716708',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '06dce4eb12ebc40cdbf615e0471a49d0cc1fe1fb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Wever\\templates\\questions.tpl',
-      1 => 1614302410,
+      1 => 1614550157,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60384cd1c09989_64033965 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603c14b052f2d0_44716708 (Smarty_Internal_Template $_smarty_tpl) {
 ?><body>
     <!-- header home club-->
     <header>
-        <a href="questions.php" class="logo-club">Lo<span>Go</span></a>
+        <a href="questions.php" class="logo-club">Con<span>tact</span></a>
         <nav class="nav-links">
             <ul>
                 <li><a href="#"><i class="fas fa-hashtag" style="font-size:15px;"></i><?php echo $_SESSION['username'];?>
