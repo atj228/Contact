@@ -26,7 +26,6 @@ Voici quelques screenshots du site:
 
 <div>
     <img src="image/index.JPG" alt="Image page index" heigth="250"/>
-    <img src="image/login.jpg" alt="Image page connexion">
-    <img src="image/affichageQuestion.jpg" alt="Image page afichage des questions">
+    <img src="image/login.JPG" alt="Image page connexion">
+    <img src="image/affichageQuestion.JPG" alt="Image page afichage des questions">
 </div>
-![image](./image/affichageQuestion.JPG)
